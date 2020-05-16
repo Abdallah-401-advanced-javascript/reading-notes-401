@@ -74,45 +74,45 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
    *Store the user's node packaging in their registry, and allow other users to reuse the public one
 > 4. Provide code snippets showing 3 different ways to export a function from a node module.
    * Export Object:
-     // Log.js
-     module.exports.log = function (msg) { 
-     console.log(msg);
-     };
-     // app.js
-     var msg = require('./Log.js');
-     msg.log('Hello World');
-     // Run and see the output in command prompt as shown below
-     `C:\> node app.js`
-     `Hello World`
+     > // Log.js
+     > module.exports.log = function (msg) { 
+     > console.log(msg);
+     > };
+     > // app.js
+     > var msg = require('./Log.js');
+     > msg.log('Hello World');
+     > // Run and see the output in command prompt as shown below
+     > `C:\> node app.js`
+     > `Hello World`
 
    * Export Function:
-     // Log.js
-     module.exports = function (msg) { 
-     console.log(msg);
-     };
-     // app.js
-     var msg = require('./Log.js');
-     msg('Hello World');
-     // Terminal
-     `C:\> node app.js`
-     `Hello World`
+     > // Log.js
+     > module.exports = function (msg) { 
+     > console.log(msg);
+     > };
+     > // app.js
+     > var msg = require('./Log.js');
+     > msg('Hello World');
+     > // Terminal
+     > `C:\> node app.js`
+     > `Hello World`
 
    * Export function as a class:
-     // person.js
-     module.exports = function (firstName, lastName) {
-     this.firstName = firstName;
-     this.lastName = lastName;
-     this.fullName = function () { 
-         return this.firstName + ' ' + this.lastName;
-     }
-     }
-     // app.js
-     var person = require('./Person.js');
-     var person1 = new person('James', 'Bond');
-     console.log(person1.fullName());
-     // Run the above example as below in terminal
-     `C:\> node app.js`
-     `James Bond`
+     > // person.js
+     > module.exports = function (firstName, lastName) {
+     > this.firstName = firstName;
+     > this.lastName = lastName;
+     > this.fullName = function () { 
+     > return this.firstName + ' ' + this.lastName;
+     > }
+     > }
+     > // app.js
+     > var person = require('./Person.js');
+     > var person1 = new person('James', 'Bond');
+     > console.log(person1.fullName());
+     > // Run the above example as below in terminal
+     > `C:\> node app.js`
+     > `James Bond`
    
 
  ![npm](./Img/npm.png)
