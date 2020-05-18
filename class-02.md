@@ -110,4 +110,4 @@ User.staticMethod(); // true
 * The snippet below loops over an array and invokes a function on each item until it has reached the last item. The capability of taking a function that it can invoke is what makes it a higher order function: function prefixWordWithUnderscore(word) { return _${word} } const words = ['coffee', 'apple', 'orange', 'phone', 'starbucks'] const prefixedWords = words.map(prefixWordWithUnderscore) // result: ["_coffee", "_apple", "_orange", "_phone", "_starbucks"]
     
 
- ![npm](./Img/high.png)
+ ![npm](./Img/high.gif)
