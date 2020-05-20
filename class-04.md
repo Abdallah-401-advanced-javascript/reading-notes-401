@@ -46,6 +46,16 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
    3. Time.
    * Speed = Sistance / Time
 
+ ## Describe how NoSQL Databases scale horizontally:
+   * NoSQL databases are designed to expand horizontally and in Horizontal scaling means that you scale by adding more machines into your pool of resources.
+
+ ## Give one strong argument for and against NoSQL Databases:
+   * postgres is a tabular relational database (sql) and mongoDb is not atabular relational database (no-sql)
+
+ ## Name 3 cloud based NoSQL Databases:
+   * Oracle, mongodb, CouchDB.
+
+
  ## Database:
    * A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.
 
