@@ -1,0 +1,52 @@
+# Read 06 ~ HTTP and REST
+> By Abdallah obaid
+
+**NAME**     | **URL**
+------------ | -------------
+Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/).
+ Prep        | [Prep: Engineering Topics](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/Prep).
+ Read 01     | [Node Ecosystem, TDD, CI/CD](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-01).
+ Read 02     | [Classes, Inheritance, Functional](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-02).
+ Read 03     | [Data Modeling & NoSQL Databases](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-03).
+ Read 04     | [Advanced Mongo/Mongoose](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-04).
+ Read 05     | [Linked Lists](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-05).
+ Read 06     | [HTTP and REST](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-06).
+ Read 07     | [Express](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-07).
+ Read 08     | [Express Routing & Connected API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-08).
+ Read 09     | [API Server](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-09).
+ Read 10     | [Stacks and Queues](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-10).
+ Read 11     | [Authentication](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-11).
+ Read 12     | [OAuth](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-12).
+ Read 13     | [Bearer Authorization](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-13).
+ Read 14     | [Access Control (ACL)](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-14).
+ Read 15     | [Trees](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-15).
+ Read 16     | [Event Driven Applications](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-16).
+
+ 
+----------------------------------
+# HTTP and REST:-
+----------------------------------
+
+ ## What is API: 
+ * **API** stand for **Application Progame Interface**.
+ * Some how as a contract from one piece of softwar to another piece of softwar.
+ * Its somehow like a messenger or waiter between server and client.
+ ## What is REST:
+ * Representational State Transfer.
+ * Architecture style for designing networked applications
+ * Relies on stateless, client-server protocol, almost always HTTP.
+ * Treats server objects as resources that can be created, updated, destroyed...
+ * Its use usually as json file in HTTP so it could be used virtually by any programming language.
+ ## Endpoints:
+ * **Endpoints** is the URI/URL where api/service can be accessed by a client application, where HTTP request send to.
+ ## HTTP:
+ * **HTTP** is a communications protocol that transports messages over a network.
+ ## SOAP:
+ * **SOAP** is a protocol to exchange **XML-based** messages that can use **HTTP** to transport those messages.
+ ## Difference between REST and SOAP API:
+  * **SOAP** is a protocol to exchange **XML-based** messages that can use **HTTP** to transport those messages.
+  * **REST** is a protocol to exchange any **(XML or JSON)** messages that can use **HTTP** to transport those messages.
+ ## Swagger:
+  * **Swagger** is an open-source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume **RESTful web services**/**API**.
+ 
+ ![Postman](./Img/postman.gif)
