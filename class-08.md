@@ -42,4 +42,4 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  * **Modularizing** ensures that external functionality is created in such a way that it isn't dependent on other external functionality, a concept known as loose coupling.
 
   
- ![Node.js](./Img/Node.js.png)
+ ![Node.js](./Img/idea.gif)
