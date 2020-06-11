@@ -48,11 +48,5 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  ## Binary Tree Data Structure :
  * A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
 
-
-  ## Role-based access control (RBAC):
-  * **Role-based access control (RBAC)** is a method of restricting network access based on the roles of individual users within an enterprise. 
-  * **RBAC** lets employees have access rights only to the information they need to do their jobs.
-  * **RBAC** Allows us to use polices so if employees change then we just need to change his yours.
-
  
  ![authentication](./Img/binaryTree.gif)
