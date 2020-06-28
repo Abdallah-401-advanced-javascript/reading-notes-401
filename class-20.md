@@ -37,6 +37,7 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
   * **React** is a **JavaScript library** for building user interfaces. Also its a **component based system**. React is used to build single page applications. React allows us to create reusable UI components.
   * **React** is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
  ## JSX:
+  * **JSX**: JavaScript XML
   * **JSX** allows us to write HTML in React. JSX makes it easier to write and add HTML in React. 
   * **JSX** is a syntax extension to JavaScript.
   * **React** doesn’t require using **JSX**, but most people find it helpful as a visual aid when working with UI inside the JavaScript code. It also allows React to show more useful error and warning messages.
