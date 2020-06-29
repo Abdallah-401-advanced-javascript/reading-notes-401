@@ -21,6 +21,11 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 14     | [Access Control (ACL)](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-14).
  Read 15     | [Trees](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-15).
  Read 16     | [Event Driven Applications](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-16).
+ Read 17     | [TCP Servers](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-17). 
+ Read 18     | [Socket.io](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-18).
+ Read 19     | [Message Queues](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-19).
+ Read 26     | [Component Based UI](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-26). 
+ Read 27     | [Props and State](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
 
 ### I'm living in Amman- Jordan.
 ### I'm a student at Lutc college.
