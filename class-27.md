@@ -1,4 +1,4 @@
-# Read 20 ~ Component Based UI
+# Read 27 ~ Props and State
 > By Abdallah obaid
 
 **NAME**     | **URL**
@@ -24,26 +24,27 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 17     | [TCP Servers](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-17). 
  Read 18     | [Socket.io](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-18).
  Read 19     | [Message Queues](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-19).
- Read 20     | [Component Based UI](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-20). 
+ Read 26     | [Component Based UI](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-26). 
+ Read 27     | [Props and State](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
 
 ----------------------------------
-# Component Based UI
+# Props and State
 ----------------------------------
 
- ## Component Based UI:
-  * **Component Based UI**: Approach allows your application architecture to stay up to date over time instead of rebuilding it from scratch.
+ ## State:
+  * The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders.
 
- ## React:
-  * **React** is a **JavaScript library** for building user interfaces. Also its a **component based system**. React is used to build single page applications. React allows us to create reusable UI components.
-  * **React** is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
- ## JSX:
-  * **JSX**: JavaScript XML
-  * **JSX** allows us to write HTML in React. JSX makes it easier to write and add HTML in React. 
-  * **JSX** is a syntax extension to JavaScript.
-  * **React** doesn’t require using **JSX**, but most people find it helpful as a visual aid when working with UI inside the JavaScript code. It also allows React to show more useful error and warning messages.
- ## Sass:
-  * **Sass** is a style sheet language.
-  * **Sass** lets you use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff.
-  * **Sass** is the most mature, stable, and powerful professional grade CSS extension language in the world.
+ ## Props:
+  * You can pass any JavaScript expression as a **prop**, by surrounding it with **{}**.
+  * **React Props** are like function **arguments in JavaScript** and **attributes in HTML**.
+  * To send **props** into a component, use the same syntax as HTML attributes.
+  * Equivalent of function params.
+  * In actuality, props is the name of the object passed into a component constructor and any prop added to a component in the JSX will be accessible as a property on props.
+  * Props can be data or functions.
+
+ ## One Way Data flow:
+  * In the **One Way Data flow** State can only be passed from parent component to a child component through the use of props.
+  * State can only be passed down the component tree (not up).
+  * If the child want to pass data to parent he need to invoke a function sent from the parent.
  
- ![queue](./Img/React.jpg)
+ ![React](./Img/React.jpg)
