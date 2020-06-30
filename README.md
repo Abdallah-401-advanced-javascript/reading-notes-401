@@ -25,9 +25,9 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 18     | [Socket.io](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-18).
  Read 19     | [Message Queues](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-19).
  Read 26     | [Component Based UI](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-26). 
- Read 27     | [Props and State](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
+ Read 27     | [React Testing and Deployment](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
  Read 28     | [Props and State](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-28). 
- 
+
 
 ### I'm living in Amman- Jordan.
 ### I'm a student at Lutc college.
