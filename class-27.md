@@ -1,4 +1,4 @@
-# Read 27 ~ Props and State
+# Read 27 ~ React Testing and Deployment
 > By Abdallah obaid
 
 **NAME**     | **URL**
@@ -25,26 +25,64 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 18     | [Socket.io](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-18).
  Read 19     | [Message Queues](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-19).
  Read 26     | [Component Based UI](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-26). 
- Read 27     | [Props and State](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
+ Read 27     | [React Testing and Deployment](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-27). 
 
 ----------------------------------
-# Props and State
+# React Testing 
 ----------------------------------
 
- ## State:
-  * The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders.
+ ## Snapshots :
+  * Its make a shot for the exact rendered tree dom and use it to be compared with later versions.
 
- ## Props:
-  * You can pass any JavaScript expression as a **prop**, by surrounding it with **{}**.
-  * **React Props** are like function **arguments in JavaScript** and **attributes in HTML**.
-  * To send **props** into a component, use the same syntax as HTML attributes.
-  * Equivalent of function params.
-  * In actuality, props is the name of the object passed into a component constructor and any prop added to a component in the JSX will be accessible as a property on props.
-  * Props can be data or functions.
+ ## Render Testing:
+  * Using **react-test-renderer** module
+  * Similar to snapshots, but allows for jQuery-like inspection of the virtual DOM tree.
 
- ## One Way Data flow:
-  * In the **One Way Data flow** State can only be passed from parent component to a child component through the use of props.
-  * State can only be passed down the component tree (not up).
-  * If the child want to pass data to parent he need to invoke a function sent from the parent.
+ ## Shallow Testing :
+  * Allows us to test the parent component without testing their children.
+
+ ## Mounting:
+  * Allows us to test the parent component and also testing their children. 
+ 
+----------------------------------
+# React Deployment
+----------------------------------
+ > **React, remember is an index.html file that uses Javascript to render components in the browser. The node server is only there to aid in your development.**
+ > `npm run build` output a **static website** containing no more than the `index.html`, `.js` and `.css` files required to open your app. 
+
+ ## Deploying to GitHub Pages:
+  1. Enable GitHub Pages on your domain, using the gh-pages branch
+  2. Create a Personal Access Token in your GitHub account
+  3. Add this token as a “Secret” called PERSONAL_TOKEN in the repository housing your react app
+  4. Add the react workflow .yml file to your repository (in .github/workflows)
+
+ ## Deploying to AWS (s3):
+  1. Create a new Bucket
+      * Storage containers for static assets
+      * Essentially, these are “folders”
+  2. Objects
+      * These are the things in the buckets (your files)
+      * Upload the contents of your React application build folder to your bucket
+  3. Set up to serve websites
+      * Properties Tab “Static Web Hosting” option
+
+ ## Deploying to AWS Amplify:
+  1. Create a new Amplify Workflow
+  2. Point the workflow at your GitHub repository (master branch)
+  3. Merge your code to master on GitHub
+  4. That’s it … Amplify will monitor your repository for changes, pull, build, and deploy your React app automatically
+  5. Eventually, there’s a usage charge for the service, depending on your traffic level
+ ## Deploying to Netlify:
+  1. Create a netlify.com account
+  2. Create a new application
+  3. Point the application at your GitHub repository (master branch)
+  4. Merge your code to master on GitHub
+  5. That’s it … Netlify will monitor your repository for changes, pull, build, and deploy your React app automatically
+
+ ## Deploying to an “old school” host, such as godaddy.com:
+  1. Create your account
+  2. Open an FTP connection to your hosting company with a tool like Transmit or FileZilla
+  3. Navigate to the web root folder
+  4. Upload the contents of your react application’s build folder
  
  ![React](./Img/React.jpg)
