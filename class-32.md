@@ -31,6 +31,7 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 30     | [Hash Tables](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-30).
  Read 31     | [Hooks API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-31). 
  Read 32     | [Custom Hooks](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-32). 
+ 
 ----------------------------------
 # Hooks API
 ----------------------------------
