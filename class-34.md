@@ -34,7 +34,7 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 33     | [Context API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-33).  
  Read 34     | [<Login /> and <Auth />](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-34).  
 ----------------------------------
-# <Login /> and <Auth />
+# `<Login />` and `<Auth />`
 ----------------------------------
  ## Authentication and Authorization:
   * While often used interchangeably, authentication and authorization represent fundamentally different functions. ... In simple terms, **authentication** is the process of verifying who a user is, while **authorization** is the process of verifying what they have access to.
