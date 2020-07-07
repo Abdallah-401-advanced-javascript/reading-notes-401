@@ -32,7 +32,7 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 31     | [Hooks API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-31). 
  Read 32     | [Custom Hooks](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-32). 
  Read 33     | [Context API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-33).  
- Read 34     | [<Login /> and <Auth />](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-34).  
+ Read 34     | [`<Login />` and `<Auth />`](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-34).  
 ----------------------------------
 # `<Login />` and `<Auth />`
 ----------------------------------
