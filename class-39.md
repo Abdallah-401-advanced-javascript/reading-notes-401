@@ -1,4 +1,4 @@
-# Read 38 ~ Asynchronous Actions
+# Read 39 ~ Redux - Additional Topics
 > By Abdallah obaid
 
 **NAME**     | **URL**
@@ -37,15 +37,18 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 36     | [Application State with Redux](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-36).    
  Read 37     | [Combined Reducers](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-37).  
  Read 38     | [Asynchronous Actions](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-38).   
-
+ Read 39     | [Redux - Additional Topics](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-39).   
 ----------------------------------
  # Asynchronous Actions
 ----------------------------------
- ## Thunking for Data:
-  * **Thunk**is middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met.
-  * Using Redux actions to connect to remote APIs via Thunk Middleware.
-  * **Thunk** will inspects every dispatched action and then either lets it go through (in the case of a normal action that returns an object) or it processes the function and then dispatches what that function returns.
-  * In Redux, middleware is implemented as a curried function that ultimately evaluates the action and determines whether it’s a function or not. If so, it gets invoked with the store’s dispatch() and getState() methods. Otherwise (a normal action creator), it simply runs your action.
-  * **Thunk** provides more stability and error checking for us.
+ ## Redux Toolkit "RTK":
+  * To add the package `npm install @reduxjs/toolkit`.
+  * Includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+  * **Toolkit** specifies a few different means of building a reducer and action set that work well together and are easier to understand and integrate.
+  * We can replace the plain Redux createStore function with RTK's configureStore. This will automatically set up the Redux DevTools Extension for us.
+
+ ## Ducks: Redux Reducer Bundles:
+  * Ducks is a modular pattern that collocates actions, action types and reducers.
+  * The original ducks modular approach is a nice simplification for redux and offers a structured way of adding each new feature in your app.
  
  ![React](./Img/Redux.gif)
