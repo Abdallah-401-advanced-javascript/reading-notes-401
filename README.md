@@ -31,6 +31,14 @@ Home         | [Home](https://abdallah-401-advanced-javascript.github.io/reading
  Read 30     | [Hash Tables](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-30).
  Read 31     | [Hooks API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-31). 
  Read 32     | [Custom Hooks](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-32). 
+ Read 33     | [Context API](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-33).  
+ Read 34     | [`<Login />` and `<Auth />`](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-34).  
+ Read 35     | [Graphs](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-35).   
+ Read 36     | [Application State with Redux](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-36).    
+ Read 37     | [Combined Reducers](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-37).  
+ Read 38     | [Asynchronous Actions](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-38).   
+ Read 39     | [Redux - Additional Topics](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-39).   
+ Read 40     | [React Native](https://abdallah-401-advanced-javascript.github.io/reading-notes-401/class-40).  
 
 
 ### I'm living in Amman- Jordan.
